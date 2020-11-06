@@ -5,19 +5,19 @@ favicon: images/favicon.ico
 # Personal info
 name: Brian M
 title: Cloud consultant
-email: brian@example.com
+email: bma@redhat.com
 website: bmangoen.github.io/blog
 
 # Social links
-twitter_username: brian
 github_username:  bmangoen
+linkedin_username: bmangoen
+twitter_username: _bmangoen
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: brian
-linkedin_username: brian
+# instagram_username: brian
 # pinterest_username: jekyll
-youtube_username: brian
+# youtube_username: brian
 # googleplus_username: +jekyll
 
 # About Section
@@ -40,9 +40,10 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
+  Alongside my interests in container platfomrs and software engineering some of my other interests and hobbies are:
    - Surfing
+   - Brazilian Jiujitsu
+   - Rock climbing
 
 # Footer
 footer_show_references: true
