@@ -5,7 +5,7 @@ favicon: images/favicon.ico
 # Personal info
 name: Brian M
 title: Cloud consultant
-email: bma@redhat.com
+email: bmangoen@redhat.com
 website: bmangoen.github.io/blog
 
 # Social links
@@ -24,12 +24,17 @@ twitter_username: _bmangoen
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brian and I'm a cloud consultant. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Brian and I'm a Cloud consultant for Red Hat.
+  
+  I’m a passionate of automation and I'm always discovering the vast world of cloud computing.
 
-  I am most skilled in: <mark>OpenShift</mark>
+  During my experiences and projects, I had the chance to write several Ansible playbooks to get automatically an application running on the Cloud for example. 
+  For orchestrating containerized applications, I have also deployed, operated and used OpenShift in many specific customer environments.
 
-# Projects Section
-# projects_title: Projects
+  I’m now interested in working on these projects by contributing and helping other engineers to improve these products.
+
+# Certification Section
+projects_title: Certification
 
 # Experience Section
 # experience_title: Experience
@@ -40,10 +45,11 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in container platfomrs and software engineering some of my other interests and hobbies are:
-   - Surfing
+  Alongside my interests in container platforms and software engineering, I like to do different activities which are:
+   - Water sports like surfing, SUP (Stand Up Paddling)
    - Brazilian Jiujitsu
    - Rock climbing
+   - Football
 
 # Footer
 footer_show_references: true
