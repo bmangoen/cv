@@ -1,37 +1,13 @@
 - layout: left
   name: OpenShift
-  #link: github.com/sproogen
-  #github: sproogen/resume-theme
-  quote: >
+  dates: 2018 - 2021
+  #link: 
+  #github: 
+  description: >
     Red Hat Certified Specialist in OpenShift Administration
-  description: | # this will include new lines to allow paragraphs
-    • Configure and deploy Red Hat OpenShift Container Platform master hosts
-
-    • Configure and deploy OpenShift node hosts
-
-    • Deploy the OpenShift Container Platform authentication
-
-    • Manage OpenShift Container Platform resources
-
-    • Use OpenShift Container Platform to deploy applications
 
 - layout: left
   name: Ansible
-  #link: github.com/sproogen
-  #github: sproogen/resume-theme
-  quote: >
+  dates: 2017 - 2020
+  description: >
     Red Hat Certified Specialist in Ansible Automation
-  description: | # this will include new lines to allow paragraphs
-    • Using Ansible inventories to define groups of hosts
-
-    • Creating Ansible playbooks
-
-    • Using Ansible playbooks to configure systems to a specified state
-
-    • Creating and using Ansible templates to create customized configuration files for hosts
-
-    • Creating Ansible roles
-
-    • Using Ansible Vault in playbooks to protect sensitive data
-
-    • Installing Ansible Tower and using it to manage systems

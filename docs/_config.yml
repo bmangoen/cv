@@ -3,7 +3,7 @@ repository: bmangoen/cv
 favicon: images/favicon.ico
 
 # Personal info
-name: Brian M
+name: Brian M.
 title: Cloud consultant
 email: bmangoen@redhat.com
 website: bmangoen.github.io/blog
@@ -24,32 +24,36 @@ twitter_username: _bmangoen
 # about_title: About Me
 about_profile_image: images/gopherizeme.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brian and I'm a Cloud consultant for Red Hat.
+  Hi, my name is Brian and I'm a french cloud consultant for Red Hat.
   
-  I’m a passionate of automation and I'm always discovering the vast world of cloud computing.
+  I’m an advocate of automation and a passionate of the containers world.
+  Go check below what I did with Ansible and OpenShift ☺
 
-  During my experiences and projects, I had the chance to write several Ansible playbooks to get automatically an application running on the Cloud for example. 
-  For orchestrating containerized applications, I have also deployed, operated and used OpenShift in many specific customer environments.
-
-  I’m now interested in working on these projects by contributing and helping other engineers to improve these products.
+  I’m now interested in working closer on these projects by contributing and helping other engineers to improve these products.
 
 # Certification Section
 projects_title: Certification
 
 # Experience Section
-# experience_title: Experience
+experience_title: Professional Experience
 
 # Education Section
 # educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+more_title: More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in container platforms and software engineering, I like to do different activities which are:
-   - Water sports like surfing, SUP (Stand Up Paddling)
-   - Brazilian Jiujitsu
-   - Rock climbing
-   - Football
+  Alongside my interests in automation, container platforms and software engineering, I like to do different activities which are:
+   - Water sports like surfing, SUP (Stand Up Paddling):
+     I love to be in harmony with the ocean and use it to ride.
+   - Brazilian Jiujitsu: 
+     I really like this martial art because it's very technical and tactical sport. 
+     I also improved my humility practising BJJ.
+   - Rock climbing:
+     I like rock climbing because I have to work on my patience and to surpass myself to progress.
+   - Football:
+     Thanks to my dad, I'm a Paris Saint Germain fan. 
+     I enjoy playing football to be part of a team which has the goal.
 
 # Footer
 footer_show_references: true

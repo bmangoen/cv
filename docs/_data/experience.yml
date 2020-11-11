@@ -5,35 +5,55 @@
   dates: 2018 - Present
   quote: >
     Openness, collaboration, sharing, and transparency
-  description: | # this will include new lines to allow paragraphs
-    Ansible / Tower
-    • Write Ansible playbooks for:
-      • Servers management
-      • Network equipments management
-      • Deploying applications
-    • Design and installation of Ansible Tower
-    • Implement Infrastructure as Code on Cloud environments (GCP / Azure)
-    • Automate OpenShift cluster creation on RHPDS (for having sandbox environment faster)
+  description: |
+    As a Cloud consultant, I realized a lot of projects for different customers.
 
-    OpenShift
-    • OpenShift Container Platform 3
-      • Installation and day-2 on VMware and Baremetal infrastructures
-    • OpenShift Container Platform 4
-      • Installation and day-2 on VMware and Baremetal infrastructures
-      • Private installation on VMware/Baremetal infrastructures and Cloud environments
-      • Automated deployment on Cloud environments (GCP / Azure)
-      • Installation and management of Calico SDN plugin (Tigera Operator)
+    My first projects were mostly for installing Ansible Tower and writing Ansible playbooks.
+    There were different use cases:
+    - servers management (Linux and Windows)
+    - network equipments management
+    - application deployment
 
-    Coding
-    • Python
-      • Scripting
-      • Ansible dynamic inventory
-    • Golang
-      • Scripting
-      • OpenShift 4 “wrapper” for automated OCP4 deployment on Cloud environments
-    • SCM
-      • Using Gitlab / Github / Bitbucket
-      • Create and validate code reviews
-    • CI / CD
-      • Using Jenkins to test, validate, build and promote the source code
-      • Writing Jenkinsfile to manage pipelines
+    I also worked on a complete Infrastructure as Code in cloud environment (GCP / Azure)
+
+    As I had a lot of interest for container topics, I worked on many projects related to OpenShift.
+    I did expertise missions by answering technical questions about OpenShift and containers world in general.
+    I also worked on "Proof of Concept" in customer environment to show the benefits of this product.
+    But since the general availability of OpenShift Container Platform 4, I realized important projects:
+    - Installation and day-2 on private and hybrid environment (VMware and baremetal). 
+      It was an enriching experience because the customer didn't have experience with containers 
+      so I had to teach them from the concepts to the management of the platform and to the application deployment on it.
+    - Automated deployment on Cloud environment. 
+      I joined the customer team which is responsible of deploying and managing the orchestrated containers platforms (OpenShift).
+      My main goals were to study and implement an automated way to install OpenShift 4 on Azure with a lot of customer specifications 
+      as the private and offline installation, the using a non default SDN plugin (Calico), the integration with customer external services.
+      I worked very closed to the customer SRE team for teaching them and getting their feedback.
+
+- layout: left
+  company: BNP Paribas Partner for Innovation
+  link: group.bnpparibas
+  job_title: IT system engineer
+  dates: 2016 - 2018
+  quote: >
+    The bank for a changing world
+  description: |
+    I started to work as a system engineer in the Linux system team which has to manage the all Linux servers of the bank.
+    My responsabilities were to maintain the Linux master servers which deployed the new Linux servers, 
+    to be garant of Linux engineering rules and to help other support teams.
+    I've also done on-call support as L3 Linux system administrator.
+
+    Then, I was the technical leader of the Linux automation program.
+    The goal of this program was to deploy automatically a Linux server from the BNP private cloud portal.
+    I implemented this new automation infrastructure by using Ansible and Ansible Tower.
+    I also worked on the automation of the cloud service "Kubernetes as a Service".
+
+- layout: left
+  company: IBM
+  link: ibm.com
+  job_title: IT specialist (intern)
+  dates: 2011 - 2015
+  quote: >
+    Big blue
+  description: |
+    At the same time of my engineering degree, I was apprentice for IBM.
+    I was in the IT specialist team which was in charge of the customers' disaster recovery service for Linux / Unix infrastructure.
