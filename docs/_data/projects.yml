@@ -1,13 +1,14 @@
 - layout: left
   name: OpenShift
   dates: 2018 - 2021
-  #link: 
+  link: https://rhtapps.redhat.com/certifications/badge/verify/4GS7AXGKTEKXGK63XPGQTLEQYMAEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=
   #github: 
   description: >
     Red Hat Certified Specialist in OpenShift Administration
 
 - layout: left
   name: Ansible
-  dates: 2017 - 2020
+  dates: 2017 - 2021
+  link: https://rhtapps.redhat.com/certifications/badge/verify/4GS7AXGKTEKXGK63XPGQTLEQYMAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
   description: >
     Red Hat Certified Specialist in Ansible Automation
