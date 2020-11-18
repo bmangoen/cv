@@ -2,9 +2,9 @@
 
 : "${PODMAN:=podman}"
 
-command -v ${PODMAN} >/dev/null 2>&1 || { echo >&2 "can't find ${PODMAN} command.  Aborting."; exit 1; }
+: "${REGISTRY:=docker.io}"
 
-: "${BOX_NAME:=box}"
+command -v ${PODMAN} >/dev/null 2>&1 || { echo >&2 "can't find ${PODMAN} command.  Aborting."; exit 1; }
 
 : "${WORKING_DIR:=../docs}"
 
@@ -12,10 +12,7 @@ command -v ${PODMAN} >/dev/null 2>&1 || { echo >&2 "can't find ${PODMAN} command
 
 ${PODMAN} run -d \
               --volume="${WORKING_DIR}:/srv/jekyll" \
-              jekyll/jekyll:3.8 mkdir _site .jekyll-cache
-${PODMAN} run -d \
-              --volume="${WORKING_DIR}:/srv/jekyll" \
-              jekyll/jekyll:3.8 touch Gemfile.lock
+              ${REGISTRY}/jekyll/jekyll:3.8 mkdir _site .jekyll-cache
 
 POD_EXISTS=$(${PODMAN} ps -a --format {{.Names}} | grep "^${POD_NAME}")
 if [ $? -eq 0 ]; then
@@ -29,7 +26,10 @@ ${PODMAN} run -d \
               -p 4000:4000 \
               --volume="${WORKING_DIR}:/srv/jekyll" \
               --name ${POD_NAME} \
-              jekyll/jekyll:3.8 jekyll serve --incremental --trace
+              ${REGISTRY}/jekyll/jekyll:3.8 jekyll serve --incremental --trace
+echo ""
+
+echo "podman logs -f ${POD_NAME}"
 
 echo ""
 
