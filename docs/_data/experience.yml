@@ -26,8 +26,8 @@
     - Automated deployment on Cloud environment. 
       I joined the customer team which is responsible of deploying and managing the orchestrated containers platforms (OpenShift).
       My main goals were to study and implement an automated way to install OpenShift 4 on Azure with a lot of customer specifications 
-      as the private and offline installation, the using a non default SDN plugin (Calico), the integration with customer external services.
-      I worked very closed to the customer SRE team for teaching them and getting their feedback.
+      as the private and offline installation, using a non default SDN plugin (Calico), the integration with customer external services.
+      I also worked very closed to the customer SRE team as a support for troubleshooting and managing the lifecycle of these clusters. 
 
 - layout: left
   company: BNP Paribas Partner for Innovation
@@ -45,7 +45,7 @@
     Then, I was the technical leader of the Linux automation program.
     The goal of this program was to deploy automatically a Linux server from the BNP private cloud portal.
     I implemented this new automation infrastructure by using Ansible and Ansible Tower.
-    I also worked on the automation of the cloud service "Kubernetes as a Service".
+    I also worked on the automation of the internal cloud service "Kubernetes as a Service".
 
 - layout: left
   company: IBM
