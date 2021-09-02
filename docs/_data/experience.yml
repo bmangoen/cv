@@ -6,7 +6,7 @@
   quote: >
     Openness, collaboration, sharing, and transparency
   description: |
-    As a Cloud consultant, I realized a lot of projects for different customers.
+    As a Cloud consultant, I worked on a lot of projects for different customers.
 
     My first projects were mostly for installing Ansible Tower and writing Ansible playbooks.
     There were different use cases:
@@ -19,15 +19,15 @@
     As I had a lot of interest for container topics, I worked on many projects related to OpenShift.
     I did expertise missions by answering technical questions about OpenShift and containers world in general.
     I also worked on "Proof of Concept" in customer environment to show the benefits of this product.
-    But since the general availability of OpenShift Container Platform 4, I realized important projects:
+    Since the general availability of OpenShift Container Platform 4, I worked on important projects:
     - Installation and day-2 on private and hybrid environment (VMware and baremetal). 
       It was an enriching experience because the customer didn't have experience with containers 
       so I had to teach them from the concepts to the management of the platform and to the application deployment on it.
     - Automated deployment on Cloud environment. 
-      I joined the customer team which is responsible of deploying and managing the orchestrated containers platforms (OpenShift).
-      My main goals were to study and implement an automated way to install OpenShift 4 on Azure with a lot of customer specifications 
+      I joined the customer team which is responsible for deploying and managing the orchestrated containers platforms (OpenShift).
+      My main goals were to study and implement an automated way to install OpenShift 4 on Azure with various customer specifications 
       as the private and offline installation, using a non default SDN plugin (Calico), the integration with customer external services.
-      I also worked very closed to the customer SRE team as a support for troubleshooting and managing the lifecycle of these clusters. 
+      I also worked very closely with the customer SRE team as a support for troubleshooting and managing the lifecycle of these clusters. 
 
 - layout: left
   company: BNP Paribas Partner for Innovation
@@ -37,7 +37,7 @@
   quote: >
     The bank for a changing world
   description: |
-    I started to work as a system engineer in the Linux system team which has to manage the all Linux servers of the bank.
+    I started to work as a system engineer in the Linux system team which has to manage all the Linux servers of the bank.
     My responsabilities were to maintain the Linux master servers which deployed the new Linux servers, 
     to be garant of Linux engineering rules and to help other support teams.
     I've also done on-call support as L3 Linux system administrator.
@@ -55,5 +55,5 @@
   quote: >
     Big blue (with red cap)
   description: |
-    At the same time of my engineering degree, I was apprentice for IBM.
-    I was in the IT specialist team which was in charge of the customers' disaster recovery service for Linux / Unix infrastructure.
+    At the same time as my engineering degree, I was apprentice for IBM.
+    I was apart of the IT specialist team which was in charge of the customers’ disaster recovery service for Linux / Unix infrastructure.

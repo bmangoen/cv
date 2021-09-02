@@ -26,7 +26,7 @@ about_profile_image: images/nocurves_me.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Brian and I'm a french cloud consultant for Red Hat.
   
-  I’m an advocate of automation and a passionate of the containers world.
+  I’m an advocate of automation and a passionate about the containers world.
   Go check below what I did with Ansible and OpenShift ☺
 
   I’m now interested in working closer on these projects by contributing and helping other engineers to improve these products.
@@ -50,7 +50,7 @@ more_content: | # this will include new lines to allow paragraphs
      I really like this martial art because it's a very technical and tactical sport. 
      I also improved my humility practising BJJ.
    - Rock climbing :
-     I like rock climbing because I have to work on my patience and to push myself to progress.
+     I like rock climbing because I have to work on my patience and also push myself in order to progress.
    - Football :
      Thanks to my dad, I'm a Paris Saint Germain fan. 
      I enjoy playing football to be part of a team which has a common goal.
